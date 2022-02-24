@@ -40,6 +40,8 @@
 						<objectStoreV2>true</objectStoreV2>
 						<properties>
 							<http.port>8081</http.port>
+							<mule.env>Dev</mule.env>
+							<encryption.key>mulesoft</encryption.key>
 						</properties>
 					</cloudHubDeployment>
 				</configuration>

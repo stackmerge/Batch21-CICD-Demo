@@ -30,8 +30,8 @@
 				<configuration>
 					<cloudHubDeployment>
 						<muleVersion>4.4.0</muleVersion>
-						<username>batch22feb22</username>
-						<password>batch22@Feb22</password>
+						<username>${env.PLATFORM_USERNAME}</username>
+						<password>${env.PLATFORM_PASSWORD}</password>
 						<applicationName>batch21-cicd-demo-24022022</applicationName>
 						<environment>Sandbox</environment>
 						<region>us-east-2</region>
